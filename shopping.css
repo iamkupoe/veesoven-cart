@@ -1,3 +1,37 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+/*Navbar items*/
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container {
+  max-width: 100%!important;
+  overflow-x: hidden !important;
+}
+
 .main {
     padding-right: 5px;
     padding-left: 5px;
@@ -37,14 +71,16 @@
 }
 
 .button1 {
-    width: 190px;
-    padding-left: 0px;
+    width: 100px;
+    padding-left: 10px;
+    margin-left: 5em;
     color: white;
     background-color: black;
 }
 
 #skuul {
    text-align: center;
+   height: 0;
 }
 
 .free {

@@ -4,42 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <link rel="icon" type="images/jpeg" href="logo.jpeg"/>
+    <link rel="icon" type="images/png" href="logo.png"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="shopping.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container main">
         <div class="col-sm-6 col-md-2">
             <div class="row">
-                <h3>Sizes:</h3>
+                <h3 id="size">In stock:</h3>
             </div>   
-        <button type="button" class="btn btn-default btn-lg active buttons">XS</button>
-        <button type="button" class="btn btn-default btn-lg active buttons">S</button>
-        <button type="button" class="btn btn-default btn-lg active buttons">M</button>
-        <button type="button" class="btn btn-default btn-lg active buttons">ML</button>
-        <button type="button" class="btn btn-default btn-lg active buttons">L</button>
-        <button type="button" class="btn btn-default btn-lg active buttons">XL</button>
+        <button type="button" class="btn btn-default btn-lg active buttons"><h5 id="butt">Cakes</h5></button>
+        <button type="button" class="btn btn-default btn-lg active buttons"><h5 id="butt">Chocolates</h5></button>
+        <button type="button" class="btn btn-default btn-lg active buttons"><h5 id="butt">Coated Strawberries</h5></button>
+        
         </div>
 
     <div class="col-md-10">
         <div class="row">
-            <h4>Product(s)found</h4>
+            <h2 id="vee">Vee's Oven Valentine Goodies</h2>
             <div class="dropdown m-right">
-                <button class="btn btn-default dropdown-toggle float" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  Order by: select
-                  <span class="caret"></span>
+                <button class="float" type="button">
+                  <h4 id="order">Order now! +233 54 699 0328</h4> 
                 </button>
         </div>
-        <div class="row">
+        <div class="row" id="one">
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <div class="free"><small>free shipping</small></div>
-                  <img src="images/images.jpg" alt="shirt">
+                    <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/berrymix.jpg" alt="strawberries">
                   <div class="caption">
-                    <h5 class="edit">Cat Tee Black T-Shirt</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>10<small>.90<br> or 9 x$1.21</small></h1>
+                    <h5 class="edit">Strawberries covered in Chocolate</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>200<small>.00</small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>
@@ -48,12 +48,12 @@
 
               <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/images1.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/chocoberry.jpg" alt="Berries">
                   <div class="caption">
-                    <h5 class="edit">Dark Thug Blue-Navy T-Shirt</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>29<small>.45<br>or 5 x$5.89</small></h1>
+                    <h5 class="edit">Strawberries covered in Chocolate with Roses</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>200<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>
@@ -62,12 +62,12 @@
 
               <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/images2.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/jar.jpg" alt="jar">
                   <div class="caption">
-                    <h5 class="edit">sphynx Tie Dye Wine T-shirt</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>9<small>.00<br>or 3 x$3.00</small></h1>
+                    <h5 class="edit">Chocolate Jar for Him/Her</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>50<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>
@@ -76,12 +76,12 @@
 
               <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/images3.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="image" src="images/lovecakes.jpg" alt="cup cakes">
                   <div class="caption">
-                    <h5 id="skuul">Skuul</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>14<small>.00<br>or 5 x$2.80</small></h1>
+                    <h5 id="skuul">Valentine Chocolate Cup Cakes</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>100<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>
@@ -91,12 +91,12 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/images4.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/rosecakes.jpg" alt="rose cup cakes">
                   <div class="caption">
-                    <h5 id="skuul">Wine skul T-Shirt</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>13<small>.25<br>or 3 x$4.42</small></h1>
+                    <h5 id="skuul">Roses Valentine Cup Cakes</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>120<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>
@@ -105,12 +105,12 @@
 
               <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/index.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/goodies.jpg" alt="pack">
                   <div class="caption">
-                    <h5 id="skuul">Cat Tee Black T-Shirt</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>10<small>.90<br>or 7 x$2.13</small></h1>
+                    <h5 id="skuul">Valentine Pack</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>250<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                   </div>
                 </div>
@@ -118,12 +118,12 @@
 
               <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/index1.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/valcake.jpg" alt="val cake">
                   <div class="caption">
-                    <h5 id="skuul">Danger Knife Grey</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>14<small>.90<br>or 7 x$2.13</small></h1>
+                    <h5 id="skuul">Rose Flower Cup Cake</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>100<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>
@@ -132,12 +132,12 @@
 
               <div class="col-md-3">
                 <div class="thumbnail">
-                  <div class="free"><small>free shipping</small></div>
-                  <img src="images/index2.jpg" alt="shirt">
+                  <div class="free"><small>Available</small></div>
+                  <img id="imag" src="images/package.jpg" alt="package">
                   <div class="caption">
-                    <h5 id="skuul">Tso 3D Black T-Shirt</h5>
-                    <h4 class="dot">---</h4>
-                    <h1 class="price"><small>$</small>18<small>.70<br>or 4 x$4.67</small></h1>
+                    <h5 id="skuul">Assorted Chocolate Pack</h5>
+                    <h4 class="dot">-----</h4>
+                    <h1 class="price"><small>GHC</small>180<small>.00<br></small></h1>
                     <button type="button" class="btn btn-default btn-lg button1">Add to Cart</button>
                     
                   </div>

@@ -56,12 +56,47 @@ body {
     font-weight: bold;
 }
 
+#size {
+    margin-top: 15px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
 .buttons {
-    border-radius: 50px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: blueviolet;
+    background-color: aqua;    
+}
+
+
+#butt {
+    color: blueviolet;
+    
 }
 
 .m-right {
     text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#vee {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: red;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+
+}
+
+#one {
+    margin-top: 15px;
+}
+
+#order {
+    font-weight: bold;
+    color: rgb(4, 0, 255);
 }
 
 .price {
@@ -72,19 +107,33 @@ body {
 
 .button1 {
     width: 105px;
+    height: 50px;
     padding-left: 10px;
     margin-left: 5em;
     color: white;
-    background-color: black;
+    background-color: red;
+}
+
+#imag {
+    height: 200px;
+    width: 200px;
+}
+
+#image {
+    height: 210px;
+    width: 210px;
 }
 
 #skuul {
    text-align: center;
-   height: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: rgb(45, 13, 230);
+  
 }
 
 .free {
-    background-color: black;
+    background-color: rgb(14, 12, 12);
     font-size: 15px;
     border-radius: 0px ;
     color: white;
@@ -98,18 +147,26 @@ body {
     margin-bottom: 10px;
 }
 
+
 h4, .h5, .h6, h4, h5, h6 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 .dot {
-    color: yellow;
+    color: red;
+    margin-top: 2px;
     font-weight: bold;
     text-align: center;
 }
 .edit {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(45, 13, 230);
+   
 }.float {
-    
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 0.5px;
 }
